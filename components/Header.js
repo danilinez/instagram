@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="container mx-auto flex items-center justify-between">
+    <div className="container mx-auto flex items-center justify-between px-4">
       {/* Brand */}
       <div className="">
         <div className="cursor-pointer h-16 w-32 relative hidden lg:inline-grid">
