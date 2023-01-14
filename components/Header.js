@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+
 
 export default function Header() {
   return (
@@ -22,7 +24,12 @@ export default function Header() {
         </div>
       </div>
       {/* Search */}
-      <h1>Search</h1>
+      <div className="relative inline-flex items-center  rounded-md bg-white ring-1 ring-slate-300">
+        <div className="px-2">
+          <MagnifyingGlassIcon className="h-5 w-5 text-slate-600"/>
+        </div>
+        <input type="text" className="border-none focus:ring-0 bg-transparent px-0 text-sm" placeholder="Search" />
+      </div>
       {/* User Actions */}
       <h1>Account</h1>
     </div>
