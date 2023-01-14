@@ -1,0 +1,22 @@
+.storyBorder{
+    background: linear-gradient(white, white) padding-box,
+    radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+}
+
+/* Chrome, Edge, and Safari */
+.invisibleScrollbar::-webkit-scrollbar {
+  height: 0px;
+}
+
+.invisibleScrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.invisibleScrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid transparent;
+}
