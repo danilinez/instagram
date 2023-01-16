@@ -5,8 +5,8 @@ import { MagnifyingGlassIcon, PlusCircleIcon, HomeIcon } from "@heroicons/react/
 
 export default function Header() {
   return (
-    <div className="border-b shadow-sm sticky top-0 bg-white">
-      <div className="container mx-auto flex items-center justify-between gap-x-4 px-4">
+    <div className="border-b shadow-sm sticky top-0 bg-white z-50">
+      <div className="container mx-auto flex items-center justify-between gap-x-4 px-4 max-w-6xl">
         {/* Brand */}
         <div className="inline-flex items-center">
           <div className="cursor-pointer h-16 w-32 relative hidden lg:inline-grid">
@@ -22,6 +22,7 @@ export default function Header() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
               layout="fill"
               className="object-contain"
+              priority="true"
             />
           </div>
         </div>

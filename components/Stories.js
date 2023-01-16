@@ -15,7 +15,7 @@ export default function Stories() {
     setStoryUsers(storyUsers);
   }, [])
   return (
-    <div className='flex items-center gap-2 p-4 shadow-sm bg-white overflow-x-auto invisibleScrollbar'>
+    <div className='flex items-center gap-2 p-4 shadow-sm border border-gray-300 bg-white overflow-x-auto invisibleScrollbar mb-4'>
       {storyUsers.map(user => (
         <Story key={user.id} username={user.username} img={user.img} /> 
       ))}
